@@ -21,7 +21,7 @@ public class CalculatorTest {
 
     @Test
     public void subTest() throws Exception {
-
+        assertEquals(calc.sub(2, 2), 0);
     }
 
 }

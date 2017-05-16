@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply plugin: 'idea'
+apply plugin: 'scala'
 
 repositories {
     mavenCentral()
@@ -7,4 +7,5 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.12'
+    compile 'org.scala-lang:scala-library:2.12.2'
 }
